@@ -1,0 +1,50 @@
+:root {
+  --blue: #0c3559;
+  --darkblue: #092640;
+  --seablue: #687b8c;
+  --lightseablue: #aab9bf;
+  --light: #f2f2f2;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.byline {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.custom-primary {
+  background-color: var(--darkblue);
+}
+
+.custom-primary a {
+  font-size: 1.5rem;
+  color: var(--lightseablue);
+}
+
+.custom-primary a:hover {
+  color: var(--light);
+}
+
+.custom-primary-btn {
+  background-color: var(--darkblue);
+  color: var(--light);
+}
+
+.custom-primary-btn:hover {
+  background-color: var(--darkblue);
+  color: var(--light);
+}
